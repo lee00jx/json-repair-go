@@ -1,0 +1,17 @@
+# Python oracle for differential testing
+.venv-oracle/
+tools/diff_check/*.jsonl
+tools/diff_check/report.txt
+__pycache__/
+
+# Go
+*.test
+*.out
+/json_repair
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.cursor/
